@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Give Life</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span><img width="53px" src="logo.jpg" alt=""></span>
+            <div class="flex">
+                <ul class="header_list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#hospitals">Hospitals</a></li>
+                    <li><a href="#donate">Want to donate?</a></li>
+                </ul>
+            </div>
+            <span><img width="53px" src="side.jpg" alt=""></span>
+        </nav>
+    </header>
+    <div>
+        <div class="content">
+            <div class="para">
+                <p>A Second Chance</p> 
+                <p>Begins With You.</p>
+            </div>
+            <div class="btn-1-2">
+                <button class="btn-1">Got any questions?</button>
+                <button class="btn-2" onclick="contactUs()">Contact Us</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Every second counts when it comes to saving lives. Our organ donor-recipient matching system ensures that those in need find the right donors efficiently and seamlessly. By <span class="highlight">bridging the gap between donors and recipients</span>, we aim to give hope, extend lives, and make the process smoother for everyone involved.
+        </p>
+        <p>Join us in making a difference—because a single donation can create a lifetime of impact.
+        </p>
+        <span class="highlight">Sign up today and be a part of this life-saving mission.</span>
+    </section>
+
+    <section class="hospitals">
+        <h2>Connected Hospitals &</h2>
+        <h2>Organ Availability</h2>
+        <p>Our platform connects you with hospitals that specialize in organ donation and transplantation, making the process seamless and efficient. We provide real-time updates on:
+        </p>
+        <ul class="list">
+            <li class="list_color">Organ Banks & Availability</li>
+            <span> –  Find hospitals with specific organs in stock and check real-time availability.</span>
+            <button onclick="checkAvailability()"><a href= index2.html>check</a></button>
+        </ul>
+        <ul class="list">
+            <li class="list_color">Transplant Centers</li>
+            <span> –  Locate hospitals that actively perform organ transplants, along with details on the procedures they offer.</span>
+            <button onclick="locateHospitals()">Check</button>
+        </ul>
+        <p>By providing this essential information, we aim to bridge the gap between donors, recipients, and medical institutions, ensuring that every available organ reaches the right person at the right time.</p>
+    </section>
+
+    <section class="donation-section">
+        <div class="container">
+            <h1 class="title">Want to Donate?</h1>
+            <p class="subtitle">
+                Be the reason someone gets a second chance <br> —donate life today.
+            </p>
+            <button class="donate-button"><a href= index1.html>Register Now</a></button>
+        </div>
+    </section>
+
+    <section class="transplants">
+        <h2>Successful Transplants</h2>
+        <div class="transplant-box">
+            <img src="transplant.webp" alt="Transplant 1">
+            <img src="kidney.jpg" alt="Transplant 2">
+            <img src="t3.jpg" alt="Transplant 3">
+        </div>
+    </section>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faqbox">
+            <span>What is organ donation?</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span>Who can become an organ donor?</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span>Which organs and tissues can be donated?</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+        <div class="faqbox">
+            <span>How can I register as an organ donor?</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="questions">
+            Questions? Call 000-800-919-1694
+        </div>
+        <div class="footer">
+            <div class="footer-item"> 
+                <a href="faq">Organizers</a>
+                <a href="faq">Jobs & Volunteer</a>
+                <a href="faq">Ways to contribute</a>
+                <a href="faq">Terms of Donation</a>
+            </div>
+
+            <div class="footer-item"> 
+                <a href="faq">Help Centre</a>
+                <a href="faq">Account</a>
+                <a href="faq">Speed Enquiry</a>
+                <a href="faq">Legal Notices</a>
+            </div>
+            <div class="footer-item">
+                <a href="faq">Medical Centre</a>
+                <a href="faq">Privacy</a>
+                <a href="faq">Cookie Preferences</a> 
+                <a href="faq">Non Profit Organization</a>
+            </div>
+
+            <div class="footer-item">
+                <a href="faq">Contact Us</a>
+                <a href="faq">Organ Test</a> 
+                <a href="faq">Legal Notices</a> 
+                <a href="faq">Only on Give Life</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
