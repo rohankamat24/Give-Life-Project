@@ -12,7 +12,7 @@ public class WebApp extends Application {
 
 //        webView.getEngine().load("~/Give_Life_Project/Give-Life-Project/index.html");
 	
-	String filePath = System.getProperty("user.home") + "/Give_Life_Project/Give-Life-Project/index.html";
+	String filePath = "index.html";
         File file = new File(filePath);
         if (!file.exists()) {
             System.out.println("File not found: " + file.getAbsolutePath());
